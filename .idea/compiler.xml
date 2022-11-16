@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jdbc-demo-solution-final" />
+        <module name="spring-03-exercise" />
+        <module name="spring-mvc-solution" />
+        <module name="spring-mvc-view-exercise" />
+        <module name="springBoot-hello" />
+        <module name="spring-11-solution" />
+        <module name="spring-02-exercise (1)" />
+        <module name="spring-20-solution" />
+        <module name="docker-compose-example" />
+        <module name="orm-solution-final" />
+        <module name="jpql-solution-06" />
+        <module name="jpql-solution-04" />
+        <module name="jpql-solution-05" />
+        <module name="jpql-solution-02" />
+        <module name="spring-02-solution" />
+        <module name="jpql-solution-03" />
+        <module name="spring-19-web-flux" />
+        <module name="jpql-solution-01" />
+        <module name="spring-framework-23-security-authorization" />
+        <module name="jpql-demo" />
+        <module name="spring-data-keyvalue-exercise" />
+        <module name="test-configuration-exercise-2" />
+        <module name="test-configuration-exercise-1" />
+        <module name="spring-framework-24-acl" />
+        <module name="spring-19-reactor" />
+        <module name="spring-data-mongo-solution" />
+        <module name="spring-27-solution" />
+        <module name="spring-03-aop-ltw" />
+        <module name="spring-03-aop-native" />
+        <module name="jdbc-demo-exercise" />
+        <module name="beans-lifecycle-exercise" />
+        <module name="spring-27-exercise" />
+        <module name="mybatis-demo" />
+        <module name="test-configuration-exercise-3" />
+        <module name="spring-data-keyvalue-solution" />
+        <module name="messager" />
+        <module name="spring-data-mongo-exercise" />
+        <module name="spring-03-solution" />
+        <module name="jpql-exercise" />
+        <module name="spring-mvc-exercise" />
+        <module name="soap-server" />
+        <module name="spring-framework-24-webflux" />
+        <module name="spring-mvc-view-solution" />
+        <module name="spring-framework-21-spring-security-start" />
+        <module name="spring-17-boot-and-react" />
+        <module name="test-configuration-solution-1" />
+        <module name="test-configuration-solution-3" />
+        <module name="test-configuration-solution-2" />
+        <module name="spring-batch-demo" />
+        <module name="spring-20-exercise" />
+        <module name="spring-18" />
+        <module name="conditional-and-profiles-exercise" />
+        <module name="spring-28-solution" />
+        <module name="soap-client" />
+        <module name="spring-11-exercise" />
+        <module name="spring-02-exercise" />
+        <module name="spring-28-exercise" />
+        <module name="orm-solution-04" />
+        <module name="orm-exercise" />
+        <module name="spring-framework-22-auth" />
+        <module name="orm-solution-03" />
+        <module name="junit" />
+        <module name="orm-solution-05" />
+        <module name="application-events-demo" />
+        <module name="orm-solution-02" />
+        <module name="rest-template" />
+        <module name="orm-solution-01" />
+        <module name="spring-17-jquery" />
+        <module name="jpql-solution-final" />
+        <module name="jdbc-demo-solution-4" />
+        <module name="spring-01-exercise" />
+        <module name="jdbc-demo-solution-5" />
+        <module name="application" />
+        <module name="spring-01-solution" />
+        <module name="spring-29-exercise" />
+        <module name="spring-03-aop-ctw" />
+        <module name="spring-29-solution" />
+        <module name="spring-jdbc-demo" />
+        <module name="beans-scopes-exercise" />
+        <module name="messager-starter" />
+        <module name="beans-scopes-solution" />
+        <module name="spring-19-reactive-spring-data" />
+        <module name="jdbc-demo-solution-3" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="advanced-config-class-work" target="1.5" />
+      <module name="application" target="11" />
+      <module name="application-events-demo" target="11" />
+      <module name="beans-lifecycle-exercise" target="11" />
+      <module name="beans-scopes-exercise" target="11" />
+      <module name="beans-scopes-solution" target="11" />
+      <module name="conditional-and-profiles-exercise" target="11" />
+      <module name="demo-projects" target="1.5" />
+      <module name="docker-compose-example" target="11" />
+      <module name="jdbc-class-work" target="1.5" />
+      <module name="jdbc-demo-exercise" target="11" />
+      <module name="jdbc-demo-solution-3" target="11" />
+      <module name="jdbc-demo-solution-4" target="11" />
+      <module name="jdbc-demo-solution-5" target="11" />
+      <module name="jdbc-demo-solution-final" target="11" />
+      <module name="jpql-class-work" target="1.5" />
+      <module name="jpql-demo" target="11" />
+      <module name="jpql-exercise" target="11" />
+      <module name="jpql-solution-01" target="11" />
+      <module name="jpql-solution-02" target="11" />
+      <module name="jpql-solution-03" target="11" />
+      <module name="jpql-solution-04" target="11" />
+      <module name="jpql-solution-05" target="11" />
+      <module name="jpql-solution-06" target="11" />
+      <module name="jpql-solution-final" target="11" />
+      <module name="junit" target="11" />
+      <module name="messager" target="11" />
+      <module name="messager-starter" target="11" />
+      <module name="mybatis-demo" target="11" />
+      <module name="orm-class-work" target="1.5" />
+      <module name="orm-exercise" target="11" />
+      <module name="orm-solution-01" target="11" />
+      <module name="orm-solution-02" target="11" />
+      <module name="orm-solution-03" target="11" />
+      <module name="orm-solution-04" target="11" />
+      <module name="orm-solution-05" target="11" />
+      <module name="orm-solution-final" target="11" />
+      <module name="rest-template" target="1.8" />
+      <module name="soap-client" target="11" />
+      <module name="soap-server" target="11" />
+      <module name="spring-01" target="1.5" />
+      <module name="spring-01-exercise" target="11" />
+      <module name="spring-01-solution" target="11" />
+      <module name="spring-02" target="1.5" />
+      <module name="spring-02-exercise" target="11" />
+      <module name="spring-02-exercise (1)" target="11" />
+      <module name="spring-02-solution" target="11" />
+      <module name="spring-03-aop-classwork" target="1.5" />
+      <module name="spring-03-aop-ctw" target="11" />
+      <module name="spring-03-aop-demo" target="1.5" />
+      <module name="spring-03-aop-ltw" target="11" />
+      <module name="spring-03-aop-native" target="11" />
+      <module name="spring-03-exercise" target="11" />
+      <module name="spring-03-solution" target="11" />
+      <module name="spring-11" target="1.5" />
+      <module name="spring-11-exercise" target="11" />
+      <module name="spring-11-solution" target="11" />
+      <module name="spring-17-boot-and-react" target="11" />
+      <module name="spring-17-jquery" target="11" />
+      <module name="spring-18" target="11" />
+      <module name="spring-19" target="1.5" />
+      <module name="spring-19-reactive-spring-data" target="13" />
+      <module name="spring-19-reactor" target="13" />
+      <module name="spring-19-web-flux" target="13" />
+      <module name="spring-20" target="1.5" />
+      <module name="spring-20-exercise" target="11" />
+      <module name="spring-20-solution" target="11" />
+      <module name="spring-27" target="1.5" />
+      <module name="spring-27-exercise" target="11" />
+      <module name="spring-27-solution" target="11" />
+      <module name="spring-28" target="1.5" />
+      <module name="spring-28-exercise" target="1.8" />
+      <module name="spring-28-solution" target="1.8" />
+      <module name="spring-29" target="1.5" />
+      <module name="spring-29-exercise" target="1.8" />
+      <module name="spring-29-solution" target="1.8" />
+      <module name="spring-30" target="1.5" />
+      <module name="spring-batch-demo" target="11" />
+      <module name="spring-data-keyvalue-class-work" target="1.5" />
+      <module name="spring-data-keyvalue-exercise" target="11" />
+      <module name="spring-data-keyvalue-solution" target="11" />
+      <module name="spring-data-mongo-class-work" target="1.5" />
+      <module name="spring-data-mongo-exercise" target="11" />
+      <module name="spring-data-mongo-solution" target="11" />
+      <module name="spring-framework-21-spring-security-start" target="11" />
+      <module name="spring-framework-22-auth" target="1.8" />
+      <module name="spring-framework-23-security-authorization" target="1.8" />
+      <module name="spring-framework-24-acl" target="1.8" />
+      <module name="spring-framework-24-webflux" target="1.8" />
+      <module name="spring-jdbc-demo" target="11" />
+      <module name="spring-mvc-class-work" target="1.5" />
+      <module name="spring-mvc-exercise" target="13" />
+      <module name="spring-mvc-solution" target="11" />
+      <module name="spring-mvc-view-class-work" target="1.5" />
+      <module name="spring-mvc-view-exercise" target="14" />
+      <module name="spring-mvc-view-solution" target="14" />
+      <module name="springBoot-hello" target="11" />
+      <module name="test-configuration-exercise-1" target="11" />
+      <module name="test-configuration-exercise-2" target="11" />
+      <module name="test-configuration-exercise-3" target="11" />
+      <module name="test-configuration-solution-1" target="11" />
+      <module name="test-configuration-solution-2" target="11" />
+      <module name="test-configuration-solution-3" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="application" options="-parameters" />
+      <module name="application-events-demo" options="-parameters" />
+      <module name="beans-lifecycle-exercise" options="-parameters" />
+      <module name="beans-scopes-exercise" options="-parameters" />
+      <module name="beans-scopes-solution" options="-parameters" />
+      <module name="conditional-and-profiles-exercise" options="-parameters" />
+      <module name="docker-compose-example" options="-parameters" />
+      <module name="jdbc-demo-exercise" options="-parameters" />
+      <module name="jdbc-demo-solution-3" options="-parameters" />
+      <module name="jdbc-demo-solution-4" options="-parameters" />
+      <module name="jdbc-demo-solution-5" options="-parameters" />
+      <module name="jdbc-demo-solution-final" options="-parameters" />
+      <module name="jpql-demo" options="-parameters" />
+      <module name="jpql-exercise" options="-parameters" />
+      <module name="jpql-solution-01" options="-parameters" />
+      <module name="jpql-solution-02" options="-parameters" />
+      <module name="jpql-solution-03" options="-parameters" />
+      <module name="jpql-solution-04" options="-parameters" />
+      <module name="jpql-solution-05" options="-parameters" />
+      <module name="jpql-solution-06" options="-parameters" />
+      <module name="jpql-solution-final" options="-parameters" />
+      <module name="junit" options="-parameters" />
+      <module name="mybatis-demo" options="-parameters" />
+      <module name="orm-exercise" options="-parameters" />
+      <module name="orm-solution-01" options="-parameters" />
+      <module name="orm-solution-02" options="-parameters" />
+      <module name="orm-solution-03" options="-parameters" />
+      <module name="orm-solution-04" options="-parameters" />
+      <module name="orm-solution-05" options="-parameters" />
+      <module name="orm-solution-final" options="-parameters" />
+      <module name="rest-template" options="-parameters" />
+      <module name="soap-client" options="-parameters" />
+      <module name="soap-server" options="-parameters" />
+      <module name="spring-11-exercise" options="-parameters" />
+      <module name="spring-11-solution" options="-parameters" />
+      <module name="spring-17-boot-and-react" options="-parameters" />
+      <module name="spring-17-jquery" options="-parameters" />
+      <module name="spring-18" options="-parameters" />
+      <module name="spring-19-reactive-spring-data" options="-parameters" />
+      <module name="spring-19-reactor" options="-parameters" />
+      <module name="spring-19-web-flux" options="-parameters" />
+      <module name="spring-20-exercise" options="-parameters" />
+      <module name="spring-20-solution" options="-parameters" />
+      <module name="spring-27-exercise" options="-parameters" />
+      <module name="spring-27-solution" options="-parameters" />
+      <module name="spring-28-exercise" options="-parameters" />
+      <module name="spring-28-solution" options="-parameters" />
+      <module name="spring-29-exercise" options="-parameters" />
+      <module name="spring-29-solution" options="-parameters" />
+      <module name="spring-batch-demo" options="-parameters" />
+      <module name="spring-data-keyvalue-exercise" options="-parameters" />
+      <module name="spring-data-keyvalue-solution" options="-parameters" />
+      <module name="spring-data-mongo-exercise" options="-parameters" />
+      <module name="spring-data-mongo-solution" options="-parameters" />
+      <module name="spring-framework-21-spring-security-start" options="-parameters" />
+      <module name="spring-framework-22-auth" options="-parameters" />
+      <module name="spring-framework-23-security-authorization" options="-parameters" />
+      <module name="spring-framework-24-acl" options="-parameters" />
+      <module name="spring-framework-24-webflux" options="-parameters" />
+      <module name="spring-jdbc-demo" options="-parameters" />
+      <module name="spring-mvc-exercise" options="-parameters" />
+      <module name="spring-mvc-solution" options="-parameters" />
+      <module name="spring-mvc-view-exercise" options="-parameters" />
+      <module name="spring-mvc-view-solution" options="-parameters" />
+      <module name="springBoot-hello" options="-parameters" />
+      <module name="test-configuration-exercise-1" options="-parameters" />
+      <module name="test-configuration-exercise-2" options="-parameters" />
+      <module name="test-configuration-exercise-3" options="-parameters" />
+      <module name="test-configuration-solution-1" options="-parameters" />
+      <module name="test-configuration-solution-2" options="-parameters" />
+      <module name="test-configuration-solution-3" options="-parameters" />
+    </option>
+  </component>
+</project>
