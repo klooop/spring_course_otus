@@ -23,6 +23,6 @@ public class PreparationDev implements CommandLineRunner {
     public void run(String... args) {
         logger.info("DEV mode!!! Что-то настравиваем и подготавливаем, параметры: {} ", Arrays.toString(args));
         logger.info("message from Messager:{}", messager.sayMessage());
-        //args парметры, котрые могут быть переданы в Main
+        //args параметры, которые могут быть переданы в Main
     }
 }
