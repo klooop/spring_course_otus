@@ -68,7 +68,6 @@
     <!-- собираем "жирный" jar-ник-->
     <build>
         <plugins>
-
             <plugin>
                 <artifactId>maven-enforcer-plugin</artifactId>
                 <version>${maven-enforcer-plugin.version}</version>

@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import ru.otus.example.conditionalandprofilesdemo.model.Party;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @SpringBootApplication
 public class ConditionalAndProfilesDemoApplication {
 

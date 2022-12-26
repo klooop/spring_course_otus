@@ -23,11 +23,13 @@ public class CustomBeanPostProcessor implements BeanPostProcessor {
         }
 
         if (bean.getClass().isAssignableFrom(Phone.class)) {
-            //updateGreeting(bean);
+            updateGreeting(bean);
         }
         return bean;
     }
-
+/**
+ * подмена значения строки greeting в приложении
+ * */
     @SneakyThrows
     private void updateGreeting(Object bean) {
         Class<?> aClass = Phone.class;

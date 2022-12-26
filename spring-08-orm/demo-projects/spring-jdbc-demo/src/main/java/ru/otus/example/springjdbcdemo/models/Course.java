@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Course {
-    private long id;
+    private Long id;
     private String name;
 }

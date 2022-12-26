@@ -11,6 +11,8 @@ import org.springframework.core.task.SimpleAsyncTaskExecutor;
 @SpringBootApplication
 public class ApplicationEventsDemoApplication {
 
+	/*Если дописать этот бин, то он переопределит существующий и вывод будет асинхронным**/
+
 	//@Bean @Primary
 	//@Bean(name = "applicationEventMulticaster")
 	public ApplicationEventMulticaster applicationEventMulticaster() {

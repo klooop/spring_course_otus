@@ -17,12 +17,16 @@ public class ApplicationEventsCommands {
     private String userName;
 
     @ShellMethod(value = "Login command", key = {"l", "login"})
+    // реагирует на ключи (если ввести l - то приложение попадет в этот метод)
     public String login(@ShellOption(defaultValue = "AnyUser") String userName) {
         this.userName = userName;
         return String.format("Добро пожаловать: %s", userName);
     }
 
+    // реагирует на ключи
     @ShellMethod(value = "Publish event command", key = {"p", "pub", "publish"})
+    // лезет и проверяет метод isPublishEventCommandAvailable(нельзя попасть в метод не
+    // залогинившись)
     @ShellMethodAvailability(value = "isPublishEventCommandAvailable")
     public String publishEvent() {
         eventsPublisher.publish();

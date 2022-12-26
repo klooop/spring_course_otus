@@ -29,6 +29,7 @@ public class NestedConfigurationDemoTest {
 */
     }
 
+
     @Autowired
     private Map<String, FamilyMember> family;
 

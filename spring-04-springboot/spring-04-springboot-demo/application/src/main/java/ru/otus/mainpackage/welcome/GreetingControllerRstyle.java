@@ -22,6 +22,7 @@ public class GreetingControllerRstyle {
     //http://localhost:8080/hello/jone
     @GetMapping(value="/hello/{name}")
     public Map<String, String> sayHello(@PathVariable("name") String name) {
+
         return this.greetingService.sayHello(name);
     }
 }

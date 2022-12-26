@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    #    Если не указать тут файлы, то выполнятся все что есть в resources проекта,
+    #    а так же в resources test, поэтому укажем наш специальный файл вставки person
+    data: data_test.sql
+
+#logging:
+#  level:
+#    root: ERROR

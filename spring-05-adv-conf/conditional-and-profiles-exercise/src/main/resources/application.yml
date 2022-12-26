@@ -5,16 +5,17 @@ condition:
 spring:
   profiles:
     #Доступные профили: Oleg и Peter
-    active:
+    active: Oleg, Peter
+
 
 logging:
   level:
     root: ERROR
 
-
----
-spring:
-  profiles: Peter
-
-condition:
-  yanis-exists: true
+#
+#---
+#spring:
+#  profiles: Peter
+##включается профиль Peter c условием что Янис присутствует
+#condition:
+#  yanis-exists: true

@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.shell.Availability;
 import org.springframework.shell.CommandNotCurrentlyAvailable;
 import org.springframework.shell.Shell;
 import org.springframework.test.annotation.DirtiesContext;
@@ -43,19 +42,22 @@ class ApplicationEventsCommandsTest {
         res = (String) shell.evaluate(() -> COMMAND_LOGIN_SHORT);
         assertThat(res).isEqualTo(String.format(GREETING_PATTERN, DEFAULT_LOGIN));
 
-        res = (String) shell.evaluate(() -> String.format(COMMAND_LOGIN_PATTERN, COMMAND_LOGIN_SHORT, CUSTOM_LOGIN));
+        res = (String) shell.evaluate(
+                () -> String.format(COMMAND_LOGIN_PATTERN, COMMAND_LOGIN_SHORT, CUSTOM_LOGIN));
         assertThat(res).isEqualTo(String.format(GREETING_PATTERN, CUSTOM_LOGIN));
     }
 
-    @DisplayName(" должен возвращать CommandNotCurrentlyAvailable если при попытке выполнения команды publish пользователь выполнил вход")
+    @DisplayName(" должен возвращать CommandNotCurrentlyAvailable если при попытке "
+            + "выполнения команды publish пользователь не выполнил вход")
     @DirtiesContext(methodMode = DirtiesContext.MethodMode.BEFORE_METHOD)
     @Test
     void shouldReturnCommandNotCurrentlyAvailableObjectWhenUserDoesNotLoginAfterPublishCommandEvaluated() {
-        Object res =  shell.evaluate(() -> COMMAND_PUBLISH);
+        Object res = shell.evaluate(() -> COMMAND_PUBLISH);
         assertThat(res).isInstanceOf(CommandNotCurrentlyAvailable.class);
     }
 
-    @DisplayName(" должен возвращать статус выполнения команды publish и вызвать соответствующий метод сервиса есл икоманда выполнена после входа")
+    @DisplayName(" должен возвращать статус выполнения команды publish и вызвать "
+            + "соответствующий метод сервиса если команда выполнена после входа")
     @DirtiesContext(methodMode = DirtiesContext.MethodMode.BEFORE_METHOD)
     @Test
     void shouldReturnExpectedMessageAndFirePublishMethodAfterPublishCommandEvaluated() {

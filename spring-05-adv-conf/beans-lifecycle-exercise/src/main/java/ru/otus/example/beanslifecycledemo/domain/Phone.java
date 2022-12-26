@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 public class Phone {
     private String greeting = "Погнали к родителям";
-
     private final PhoneNumber favoriteNumber;
 
     public void callFavoriteNumber() {
