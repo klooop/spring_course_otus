@@ -38,7 +38,7 @@ public class OtusStudent {
     private List<EMail> emails;
 
     @Fetch(FetchMode.SELECT)
-    @BatchSize(size = 5)
+    @BatchSize(size = 2)
     // Указывает на связь между таблицами "многие ко многим"
     @ManyToMany(targetEntity = Course.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     // Задает таблицу связей между таблицами для хранения родительской и связанной сущностью

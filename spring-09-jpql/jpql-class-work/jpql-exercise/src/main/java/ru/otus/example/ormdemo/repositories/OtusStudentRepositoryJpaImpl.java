@@ -26,31 +26,45 @@ public class OtusStudentRepositoryJpaImpl implements OtusStudentRepositoryJpa {
 
     @Override
     public OtusStudent save(OtusStudent student) {
-        return null;
+        // проверка на новую запись
+        if (student.getId() == 0) {
+            em.persist(student);
+        } else {
+            em.merge(student);
+        }
+        return student;
     }
 
     @Override
     public Optional<OtusStudent> findById(long id) {
-        return Optional.empty();
+        return Optional.ofNullable(em.find(OtusStudent.class, id));
     }
 
     @Override
     public List<OtusStudent> findAll() {
-        return Collections.emptyList();
+        return em.createQuery("Select s from OtusStudent s join fetch s.emails", OtusStudent.class).getResultList();
     }
 
     @Override
     public List<OtusStudent> findByName(String name) {
-        return Collections.emptyList();
+        TypedQuery<OtusStudent> query = em.createQuery("select s from OtusStudent s where s.name= :name", OtusStudent.class);
+        query.setParameter("name", name);
+        return query.getResultList();
     }
 
     @Override
     public void updateNameById(long id, String name) {
-
+        Query query = em.createQuery("update OtusStudent s set s.name=:name where s.id = :id");
+        query.setParameter("name", name);
+        query.setParameter("id", id);
+        query.executeUpdate();
     }
 
     @Override
     public void deleteById(long id) {
+        Query query = em.createQuery("delete from OtusStudent s where s.id=:id");
+        query.setParameter("id", id);
+        query.executeUpdate();
     }
 
 }

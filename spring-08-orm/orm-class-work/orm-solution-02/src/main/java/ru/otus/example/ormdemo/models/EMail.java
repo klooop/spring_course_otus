@@ -14,6 +14,7 @@ import javax.persistence.*;
 public class EMail {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @Column(name = "email")

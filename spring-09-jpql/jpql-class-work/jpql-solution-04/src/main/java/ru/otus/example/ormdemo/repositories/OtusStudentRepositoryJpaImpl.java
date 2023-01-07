@@ -66,8 +66,8 @@ public class OtusStudentRepositoryJpaImpl implements OtusStudentRepositoryJpa {
     @Override
     public void deleteById(long id) {
         Query query = em.createQuery("delete " +
-                        "from OtusStudent s " +
-                        "where s.id = :id");
+                "from OtusStudent s " +
+                "where s.id = :id");
         query.setParameter("id", id);
         query.executeUpdate();
     }

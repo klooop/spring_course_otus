@@ -4,9 +4,9 @@ spring:
     initialization-mode: always
 
   jpa:
-    generate-ddl: false
+    generate-ddl: true
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
 
     show-sql: true
 

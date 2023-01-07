@@ -60,5 +60,11 @@ class OtusStudentRepositoryJpaImplTest {
                 .allMatch(s -> s.getEmails() != null && s.getEmails().size() > 0);
         System.out.println("----------------------------------------------------------------------------------------------------------\n\n\n\n");
         assertThat(sessionFactory.getStatistics().getPrepareStatementCount()).isEqualTo(EXPECTED_QUERIES_COUNT);
+        System.out.println("\n\n\n\n-----------------------------tostring-----------------------------------------------------------------------------");
+        for (OtusStudent student :students) {
+            System.out.println(student.toString());
+        }
+        System.out.println("\n\n\n\n-----------------------------tostring-----------------------------------------------------------------------------");
+
     }
 }
